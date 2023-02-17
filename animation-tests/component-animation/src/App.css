@@ -1,0 +1,45 @@
+.app {
+  text-align: center;
+  margin: 0rem;
+  padding: 4rem;
+}
+
+html {
+  background-color:rgb(215, 198, 198);
+}
+
+h1 {
+  font-size: 25px;
+  padding: 5px;
+}
+p {
+  font-size: 15px;
+  padding: 5px;
+}
+
+button {
+  padding: 8px;
+  background-color: #c07e9d;
+}
+button:hover {
+  background-color: #86526b;
+}
+
+.container {
+  padding: 8rem;
+  margin-top: 100px;
+  min-height: 200px;
+}
+
+.item { 
+  width: 200px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: #c07e9d;
+  border-radius: 30px;
+}
+
+.item:hover {
+  background-color: #d482a9;
+  border-radius: 20px;
+}

@@ -1,0 +1,43 @@
+.buttons {
+	justify-self: center;
+	margin: 1rem;
+	padding: 1rem;
+	border-color: rgba(255, 255, 255, 0.356);
+	border-right-color: rgba(0, 0, 0, 0.459);
+	border-bottom-color: rgba(0, 0, 0, 0.459);
+	font-size: 20px;
+	color: black;
+	background: linear-gradient(218deg, rgba(238,174,202,1) 25%, rgba(148,187,233,1) 100%);
+}
+
+.buttons:hover,
+.buttons:active  {
+	justify-self: center;
+	margin: 1rem;
+	padding: 1rem;
+	border-color: rgba(255, 255, 255, 0.356);
+	border-left-color: rgba(0, 0, 0, 0.459);
+	border-top-color: rgba(0, 0, 0, 0.459);
+	font-size: 20px;
+	color: black;
+	background: linear-gradient(218deg, rgba(238,174,202,1) 25%, rgba(148,187,233,1) 100%);
+}
+
+.button {
+	font: inherit;
+	border: 1px solid #4f005f;
+	background: #4f005f;
+	color: white;
+	padding: 0.25rem 1rem;
+	cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+	background: #741188;
+	border-color: #741188;
+}
+
+.button:focus {
+	outline: none;
+}
